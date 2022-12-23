@@ -1,0 +1,39 @@
+.BlogAside {
+  .recentposts {
+    margin-top: 1rem;
+    h4 {
+      font-style: italic;
+      padding: 1rem;
+      border-bottom: 1px solid var(--golden);
+    }
+    li {
+      border-bottom: 1px solid var(--golden);
+      padding: 1rem 0;
+      .flex {
+        display: flex;
+        gap: 0.5rem;
+        .post_title{
+          font-size: 1rem;
+        }
+      }
+      img {
+        width: 10rem;
+      }
+      .post_date {
+        color: var(--golden);
+        font-style: italic;
+        font-size: 0.8rem;
+        margin: 1rem 0;
+      }
+      .post_text {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+      }
+      cite {
+        font-weight: 700;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
